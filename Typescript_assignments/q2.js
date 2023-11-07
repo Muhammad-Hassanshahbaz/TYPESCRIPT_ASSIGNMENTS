@@ -1,0 +1,11 @@
+var personname = "hassan";
+var personname = "hassan shahbaz";
+personname = personname.toLowerCase();
+console.log(personname);
+var personname = "hassan";
+personname = personname.toUpperCase();
+console.log(personname);
+var str1 = personname.charAt(0);
+str1 = str1.toUpperCase();
+//var persontitle =personname.charAt(0).toUpperCase + personname.substr(1).toLowerCase();
+console.log(str1 + personname.substr(1).toLowerCase());
